@@ -1,0 +1,12 @@
+<table *ngIf="events">
+  <thead>
+    <th>Event Name Sample 1</th>
+    <!-- <th>Info</th> -->
+  </thead>
+  <tbody>
+    <tr *ngFor="let event of events">
+      <td>{{ event.name }}</td>
+      <!-- <td>{{ event.info }}</td> -->
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table *ngIf="events$ | async as events">
+  <thead>
+    <th>Event Name Sample 2</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let event of events">
+      <td>{{ event.name }}</td>
+    </tr>
+  </tbody>
+</table>
