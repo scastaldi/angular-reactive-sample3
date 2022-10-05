@@ -6,5 +6,5 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'TampaCC 2022';
+  name = 'Tampacc 2022 - Sample3';
 }
